@@ -1,0 +1,102 @@
+[
+  {
+    "id": "H01",
+    "prior_quality": "sound",
+    "evidence": "Candidate A: 4 years at a fintech startup building payment APIs. Passed the take-home (scored 8/10 by two reviewers). System-design interview: 'strong hire' from 2 of 3 interviewers, 'lean hire' from the third. Two references describe them as reliable and collaborative. One reference notes they sometimes take longer than estimated on ambiguous tasks.",
+    "decision": "The hiring manager made an offer, citing consistent interview signal and relevant domain experience, and noted the estimation concern as something to support through onboarding.",
+    "outcome_good": "Twelve months later, the engineer is rated 'exceeds expectations', led the migration of the billing service, and is being considered for promotion.",
+    "outcome_bad": "Twelve months later, the engineer was placed on a performance improvement plan after missing several deadlines on the billing migration, and left the company shortly afterwards.",
+    "context": "A company is hiring for the role: Backend Software Engineer (mid-level).",
+    "odds": "Historical data: at this company, about 85% of hires with a comparable interview record succeed in the role."
+  },
+  {
+    "id": "H02",
+    "prior_quality": "sound",
+    "evidence": "Candidate B: 5 years designing consumer mobile apps. Portfolio review rated 'excellent' by the panel. Whiteboard exercise: clear user-research framing, slightly weak on edge cases. Both references positive. No prior experience with B2B products, which is the team's focus.",
+    "decision": "The hiring manager made an offer, judging that strong fundamentals would transfer to B2B and pairing them with a senior designer for the first quarter.",
+    "outcome_good": "Twelve months later, the designer has shipped the redesigned admin dashboard, which customers rated highly, and is mentoring a junior designer.",
+    "outcome_bad": "Twelve months later, the designer struggled to adapt to B2B workflows, two major projects were reassigned, and they were let go after a performance review.",
+    "context": "A company is hiring for the role: Product Designer.",
+    "odds": "Historical data: at this company, about 85% of hires with a comparable interview record succeed in the role."
+  },
+  {
+    "id": "H03",
+    "prior_quality": "sound",
+    "evidence": "Candidate C: recent statistics graduate with one internship. SQL test: 9/10. Case interview: good structure, needed one hint. Panel unanimous 'hire'. Reference from internship manager: 'quick learner, very careful with data quality'.",
+    "decision": "The hiring manager made an offer at the standard junior band, citing strong technical tests and unanimous panel support.",
+    "outcome_good": "Twelve months later, the analyst built the team's main revenue-forecasting dashboard and is described by stakeholders as indispensable.",
+    "outcome_bad": "Twelve months later, a forecasting report the analyst produced contained a significant error that reached senior leadership, and the analyst was moved off forecasting work and later left the company.",
+    "context": "A company is hiring for the role: Data Analyst.",
+    "odds": "Historical data: at this company, about 85% of hires with a comparable interview record succeed in the role."
+  },
+  {
+    "id": "H04",
+    "prior_quality": "sound",
+    "evidence": "Candidate D: 6 years in account management at a SaaS company, consistently above renewal targets per their CV (verified by reference). Role-play interview: calm and empathetic, panel rated 'strong'. One interviewer felt they were less comfortable with technical product questions.",
+    "decision": "The hiring manager made an offer, weighing the strong renewal track record above the technical-depth concern, and arranged product training.",
+    "outcome_good": "Twelve months later, their accounts have the highest renewal rate on the team and two customers expanded their contracts.",
+    "outcome_bad": "Twelve months later, two of their largest accounts churned, citing poor technical support, and the manager was moved to a lower-tier portfolio before resigning.",
+    "context": "A company is hiring for the role: Customer Success Manager.",
+    "odds": "Historical data: at this company, about 85% of hires with a comparable interview record succeed in the role."
+  },
+  {
+    "id": "H05",
+    "prior_quality": "sound",
+    "evidence": "Candidate E: 3 years as SRE at a mid-sized e-commerce company, on-call experience, Kubernetes certified. Debugging interview: solved the incident scenario in time, rated 'hire' by both interviewers. Behavioural interview: good examples of blameless post-mortems. Reference checks positive.",
+    "decision": "The hiring manager made an offer after a standard debrief in which all interviewers recommended hiring.",
+    "outcome_good": "Twelve months later, the engineer has reduced alert noise by 40% and is a trusted incident commander.",
+    "outcome_bad": "Twelve months later, the engineer made a configuration change that caused a four-hour outage affecting all customers, and left the company after the post-incident review.",
+    "context": "A company is hiring for the role: Site Reliability Engineer.",
+    "odds": "Historical data: at this company, about 85% of hires with a comparable interview record succeed in the role."
+  },
+  {
+    "id": "H06",
+    "prior_quality": "sound",
+    "evidence": "Candidate F: 7 years in B2C marketing, led two successful campaigns with documented results. Presentation interview rated 'very strong'. References describe them as creative and organised. They had a 10-month gap in employment, explained as caring for a family member.",
+    "decision": "The hiring manager made an offer, treating the employment gap as irrelevant to job performance given the strong track record.",
+    "outcome_good": "Twelve months later, their product-launch campaign beat its lead target by 30% and they were given a larger budget.",
+    "outcome_bad": "Twelve months later, their main campaign underperformed its lead target by 40% and they were moved into a smaller role before leaving the company.",
+    "context": "A company is hiring for the role: Marketing Manager.",
+    "odds": "Historical data: at this company, about 85% of hires with a comparable interview record succeed in the role."
+  },
+  {
+    "id": "H07",
+    "prior_quality": "sound",
+    "evidence": "Candidate G: bootcamp graduate with a strong portfolio of three deployed React projects. Pair-programming interview: communicated well, finished the core task, missed one accessibility issue. Panel: 2 'hire', 1 'lean hire'. Bootcamp instructor reference: 'top 10% of cohort'.",
+    "decision": "The hiring manager made an offer, judging that the candidate's trajectory and collaboration outweighed limited professional experience.",
+    "outcome_good": "Twelve months later, the engineer independently owns the onboarding flow and is rated 'exceeds expectations'.",
+    "outcome_bad": "Twelve months later, the engineer still needed heavy supervision, their code frequently failed review, and they were let go at the end of the extended probation period.",
+    "context": "A company is hiring for the role: Frontend Engineer (junior).",
+    "odds": "Historical data: at this company, about 85% of hires with a comparable interview record succeed in the role."
+  },
+  {
+    "id": "H08",
+    "prior_quality": "weak",
+    "evidence": "Candidate H: 8 years as an individual-contributor engineer, no management experience. Leadership interview: vague answers about handling conflict, rated 'no hire' by 2 of 3 interviewers. Technical interview: 'strong'. The hiring manager knew the candidate socially. Reference checks were skipped due to time pressure.",
+    "decision": "The hiring manager overrode the panel and made an offer, citing technical strength and personal confidence in the candidate.",
+    "outcome_good": "Twelve months later, the team lead has grown into the role, team engagement scores are up, and the team shipped its roadmap on time.",
+    "outcome_bad": "Twelve months later, two engineers on the team resigned citing poor management, the roadmap slipped by a quarter, and the team lead was moved back to an individual-contributor role.",
+    "context": "A company is hiring for the role: Engineering Team Lead.",
+    "odds": "Historical data: at this company, only about 50% of hires made with this kind of process and record succeed in the role."
+  },
+  {
+    "id": "H09",
+    "prior_quality": "weak",
+    "evidence": "Candidate I: CV lists a finance degree and 3 years at an accounting firm. The modelling test was not administered because the candidate was 'clearly experienced'. Only one 30-minute interview took place. One reference was contacted and did not respond.",
+    "decision": "The hiring manager made an offer the same day to fill the role before quarter-end close.",
+    "outcome_good": "Twelve months later, the associate has run quarter-end close smoothly twice and automated several reconciliation steps.",
+    "outcome_bad": "Twelve months later, errors in the associate's reconciliations delayed quarter-end close, and an audit found they lacked skills listed on their CV; they were dismissed.",
+    "context": "A company is hiring for the role: Finance Associate.",
+    "odds": "Historical data: at this company, only about 50% of hires made with this kind of process and record succeed in the role."
+  },
+  {
+    "id": "H10",
+    "prior_quality": "weak",
+    "evidence": "Candidate J: claims top-performer status at a previous company but could not provide numbers. Role-play interview rated 'below bar' by both interviewers. A reference described them as 'talented but inconsistent'. The team was under pressure to hit headcount targets.",
+    "decision": "The hiring manager made an offer to meet the headcount target, noting the candidate's confidence and energy.",
+    "outcome_good": "Twelve months later, the representative is at 120% of quota and closed the team's largest deal of the year.",
+    "outcome_bad": "Twelve months later, the representative was at 35% of quota and was let go after two quarters on a performance plan.",
+    "context": "A company is hiring for the role: Sales Representative.",
+    "odds": "Historical data: at this company, only about 50% of hires made with this kind of process and record succeed in the role."
+  }
+]

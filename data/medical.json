@@ -1,0 +1,92 @@
+[
+  {
+    "id": "M01", "prior_quality": "sound",
+    "context": "An emergency department doctor is assessing a 52-year-old with chest pain.",
+    "evidence": "The pain started 6 hours ago and has settled. Two ECGs are normal. Two troponin blood tests, taken 3 hours apart as the protocol requires, are both normal. The department's validated chest-pain risk score puts the patient in the low-risk group.",
+    "odds": "Department data: about 2% of patients in this low-risk group have a major heart event within 30 days.",
+    "decision": "The doctor discharged the patient with a GP follow-up and advice to return if the pain came back.",
+    "outcome_good": "At 30-day follow-up the patient was well, and outpatient tests found no heart disease.",
+    "outcome_bad": "Nine days later the patient had a heart attack and needed an emergency stent."
+  },
+  {
+    "id": "M02", "prior_quality": "sound",
+    "context": "An emergency department doctor is assessing a 30-year-old with a headache.",
+    "evidence": "The patient has a 10-year history of migraines, and says this headache feels like their usual ones. It built up gradually over several hours. Neurological examination is completely normal. There are no red-flag features listed in the department's headache guideline.",
+    "odds": "Department data: fewer than 1% of patients with this presentation have a serious underlying cause.",
+    "decision": "The doctor treated the migraine, the headache improved, and the patient was discharged with advice on when to return.",
+    "outcome_good": "The patient recovered fully, and the headache did not come back.",
+    "outcome_bad": "Four days later the patient returned with a brain bleed that needed surgery."
+  },
+  {
+    "id": "M03", "prior_quality": "sound",
+    "context": "An emergency department doctor is assessing a 68-year-old with a cough and fever.",
+    "evidence": "Chest X-ray confirms pneumonia. Oxygen levels, blood pressure and mental state are normal. The validated pneumonia severity score is low. The patient lives with a partner and can take tablets.",
+    "odds": "Department data: about 3% of patients with this severity score treated at home later need hospital admission.",
+    "decision": "The doctor discharged the patient on oral antibiotics with a review in 48 hours.",
+    "outcome_good": "The patient recovered at home within a week.",
+    "outcome_bad": "Three days later the patient was readmitted with sepsis and spent four days in intensive care."
+  },
+  {
+    "id": "M04", "prior_quality": "sound",
+    "context": "An emergency department doctor is assessing a 25-year-old with an ankle injury.",
+    "evidence": "The patient twisted their ankle playing football. They can walk four steps, and there is no bone tenderness at any of the points listed in the validated ankle X-ray rules. The rules say no X-ray is needed.",
+    "odds": "Published data for this rule: fewer than 2% of patients who meet these criteria have a fracture.",
+    "decision": "The doctor diagnosed a sprain and discharged the patient without an X-ray.",
+    "outcome_good": "The sprain healed fully within four weeks.",
+    "outcome_bad": "Two weeks later an X-ray found a small fracture, and the patient needed a cast for six weeks."
+  },
+  {
+    "id": "M05", "prior_quality": "sound",
+    "context": "An emergency department doctor is assessing a 45-year-old with abdominal pain.",
+    "evidence": "The pain is mild and has lasted 12 hours. Blood tests are normal. An ultrasound is normal. The validated appendicitis score is low. The patient lives 10 minutes from the hospital.",
+    "odds": "Department data: about 4% of patients with this score and normal tests turn out to have appendicitis.",
+    "decision": "The doctor discharged the patient with clear advice to return if the pain got worse.",
+    "outcome_good": "The pain went away the next day.",
+    "outcome_bad": "The patient returned 36 hours later with a burst appendix and needed emergency surgery."
+  },
+  {
+    "id": "M06", "prior_quality": "sound",
+    "context": "An emergency department doctor is assessing a 66-year-old who bumped their head.",
+    "evidence": "The patient takes a blood thinner and hit their head on a cupboard door. They did not lose consciousness. A CT scan of the head is normal, as the guideline for patients on blood thinners requires. Their family will stay with them overnight.",
+    "odds": "Department data: about 1% of patients like this with a normal CT develop a delayed bleed.",
+    "decision": "The doctor discharged the patient with written head-injury advice.",
+    "outcome_good": "The patient had no further problems.",
+    "outcome_bad": "Five days later the patient was readmitted with a delayed bleed on the brain."
+  },
+  {
+    "id": "M07", "prior_quality": "sound",
+    "context": "An emergency department doctor is assessing a 35-year-old with a red, swollen leg.",
+    "evidence": "The redness covers a small area of the lower leg. There is no fever, blood tests are normal, and an ultrasound rules out a blood clot. The skin infection guideline recommends oral antibiotics for this severity.",
+    "odds": "Department data: about 5% of patients like this need to switch to hospital treatment.",
+    "decision": "The doctor discharged the patient on oral antibiotics with a review in 48 hours.",
+    "outcome_good": "The infection cleared within a week.",
+    "outcome_bad": "Two days later the patient was admitted with a spreading infection and needed IV antibiotics for five days."
+  },
+  {
+    "id": "M08", "prior_quality": "weak",
+    "context": "An emergency department doctor is assessing a 58-year-old with chest pain.",
+    "evidence": "The pain started 2 hours ago. One ECG is normal. Only one troponin blood test was taken; the protocol requires a second test 3 hours later before discharge. The department was very busy and the doctor wanted to free up the bed.",
+    "odds": "Department data: about 10% of patients discharged after a single early troponin have a major heart event within 30 days.",
+    "decision": "The doctor discharged the patient without the second test.",
+    "outcome_good": "At 30-day follow-up the patient was well, and outpatient tests found no heart disease.",
+    "outcome_bad": "Two days later the patient had a heart attack and needed an emergency stent."
+  },
+  {
+    "id": "M09", "prior_quality": "weak",
+    "context": "An emergency department doctor is assessing a 40-year-old with a headache.",
+    "evidence": "The patient describes a sudden, severe headache that reached its worst within a minute, unlike any they have had before. Neurological examination is normal. The headache guideline says this presentation needs a CT scan; no scan was ordered.",
+    "odds": "Department data: about 10% of patients with this kind of sudden headache have a brain bleed.",
+    "decision": "The doctor gave painkillers and discharged the patient.",
+    "outcome_good": "The headache settled within a day and did not come back.",
+    "outcome_bad": "The next day the patient collapsed and was found to have a brain bleed."
+  },
+  {
+    "id": "M10", "prior_quality": "weak",
+    "context": "An emergency department doctor is assessing a 78-year-old who had a fall at home.",
+    "evidence": "The patient's family says they have been more confused than usual since yesterday. No cause for the confusion was investigated. The patient lives alone. The guideline requires a senior review before discharging confused older patients; this was skipped at 3am.",
+    "odds": "Department data: about 25% of confused older patients discharged without a cause found are readmitted within a week.",
+    "decision": "The doctor discharged the patient home by taxi at 3am.",
+    "outcome_good": "The confusion cleared over the next two days, and the patient stayed well at home.",
+    "outcome_bad": "The patient was found on the floor at home the next day with a serious infection and was readmitted."
+  }
+]
